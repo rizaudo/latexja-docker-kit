@@ -10,6 +10,12 @@ on:
     tags:
       - v*
 
+    paths-ignore:
+      - 'docker-compose.yml'
+      - 'README.md'
+      - 'Makefile'
+      - '.latexmkrc'
+
   # Run tests for any PRs.
   pull_request:
 
