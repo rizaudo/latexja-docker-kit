@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   article_build:
-    image: docker.pkg.github.com/rizaudo/latexja-docker-kit/latexja-build
+    image: docker.pkg.github.com/rizaudo/latexja-docker-kit/latexja-build:v1.0.0
     command: "/bin/sh -c  'make'"
     volumes:
       - .:/workdir
